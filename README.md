@@ -64,7 +64,7 @@ To use different input and output paths, modify the input_video and output_video
 
 ```python
     # Define new dimensions for the output video (9:16 aspect ratio)
-    new_height = width * 16 // 9
+    new_height = width * 16 // 9 # change to 1 // 1 or 3 // 2 or something else
     new_width = width
 ```
 
@@ -74,13 +74,13 @@ Below are examples showing the transformation of a video from a 16:9 aspect rati
 
 Before Conversion (16:9)
 
-![before_input](input.mp4)
+![before_input](img/input.gif)
 
 After Conversion (9:16)
-![after_output9-16](out/output_9-16.mp4)
+![after_output9-16](img/output_9-16.gif)
 
 After Conversion (1:1)
-![after_output1-1](out/output_1-1.mp4)
+![after_output1-1](img/output_1-1.gif)
 
 In the example above, notice how the original content remains clear and focused in the center, while the blurred version of the video fills the background, maintaining a full-frame view.
 
