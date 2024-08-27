@@ -77,9 +77,11 @@ Before Conversion (16:9)
 ![before_input](img/input.gif)
 
 After Conversion (9:16)
+
 ![after_output9-16](img/output_9-16.gif)
 
 After Conversion (1:1)
+
 ![after_output1-1](img/output_1-1.gif)
 
 In the example above, notice how the original content remains clear and focused in the center, while the blurred version of the video fills the background, maintaining a full-frame view.
